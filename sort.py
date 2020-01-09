@@ -5,7 +5,7 @@ temp = 0;
 #Displaying elements of original array    
 print("Elements of original array: ");    
 for i in range(0, len(arr)):    
-    print(arr[i], end=" ");    
+    print(arr[i]);    
      
 #Sort the array in ascending order    
 for i in range(0, len(arr)):    
@@ -21,4 +21,4 @@ print();
     
 print("Elements of array sorted in ascending order: ");    
 for i in range(0, len(arr)):    
-    print(arr[i], end=" ");  
+    print(arr[i]);  
